@@ -5,8 +5,12 @@
 - This is an array: `[1, 2, 3]`. Map over it to create another array containing: `[2, 4, 6]`
 
 ```jsx
-[1, 2, 3].map(
-  // Your code here
+[1, 2, 3].map((number, index) => {
+    return (
+      number * 2
+    )
+}
+
 );
 ```
 
@@ -18,18 +22,24 @@
 ```jsx
 function IceCreamShowcase() {
   const iceCreamFlavors [
-    "Rockmelon and Lime", "Cookies & Cream", "Strawberry Cookies & Cream",
-    "Hokey Pokey", 'Vanilla', 'Lime and Coconut';
+    {name: "Rockmelon and Lime"}, 
+    {name: "Cookies & Cream"}, 
+    {name: "Strawberry Cookies & Cream"},
+    {name: "Hokey Pokey"}, 
+    {name: 'Vanilla'}, 
+    {name: 'Lime and Coconut'};
   ];
 
   return (
-    <h1>Ice Cream!
+    <div>
+      <h1>Ice Cream!</h1>
 
-    <ul>
-    iceCreamFlavors.map(() => {
-      <li>flavor<li>
-    });
-    </ul>
+      <ul>
+      iceCreamFlavors.map(() => {
+        <li>flavor<li>
+      });
+      </ul>
+    </div>
   )
 }
 ```
@@ -37,3 +47,5 @@ function IceCreamShowcase() {
 ## 3
 
 - Name something you took away from Dan Walker's chat this morning
+
+Blueprint - There will be redundancies in the tech industry. Prepare for that and accept it. Don't take a redundancy personally.
