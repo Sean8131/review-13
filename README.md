@@ -12,7 +12,7 @@
 
 ## 2
 
-- This is a React component rendering a list of ice cream flavors. There are 5 bugs. Can you
+- This is a React component rendering a list of ice cream flavors. There are 6 bugs. Can you
   find and fix them?
 
 ```jsx
@@ -33,3 +33,7 @@ function IceCreamShowcase() {
   )
 }
 ```
+
+## 3
+
+- Name something you took away from Dan Walker's chat this morning
